@@ -1,7 +1,7 @@
 import { Template } from 'meteor/templating';
 import './Index.html';
 import './authentication/Login.js';
-import './ai/ChatBot.js';
+import './ai-integration/ChatBot.js';
 
 const getUser = () => Meteor.user();
 const isUserLogged = () => !!getUser();

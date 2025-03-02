@@ -1,4 +1,5 @@
 import { Meteor } from 'meteor/meteor';
+import "/imports/api/ApiMethods.js";
 
 const SEED_USERNAME = 'myuser';
 const SEED_PASSWORD = 'mypassword';

@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { Template } from 'meteor/templating';
 import './Login.html';
-import '../ai/ChatBot.js';
+import '../ai-integration/ChatBot.js';
 
 Template.login.events({
   'submit .login-form'(event) {

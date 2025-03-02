@@ -67,6 +67,14 @@
       ],
       "meteor/dev-error-overlay": [
         "/Users/crownedprinz/.meteor/packages/dev-error-overlay/0.1.3/web.browser/client.js"
+      ],
+      "meteor/session": [
+        "/Users/crownedprinz/.meteor/packages/session/1.2.2/web.browser/session.js"
+      ],
+      "meteor/http": [
+        "/Users/crownedprinz/.meteor/packages/http/3.0.0/web.browser/httpcall_client.js",
+        "/Users/crownedprinz/.meteor/packages/http/3.0.0/web.browser/httpcall_common.js",
+        "/Users/crownedprinz/.meteor/packages/http/3.0.0/web.browser/httpcall_server.js"
       ]
     }
   },
