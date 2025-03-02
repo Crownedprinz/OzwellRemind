@@ -15,7 +15,7 @@ export const getCompletion = async (prompt) => {
     // Await the HTTP call
     const response = await HTTP.call('POST', url, {
       headers: {
-        'Authorization': 'Bearer BHSK-sandbox--sgPSaruTIQ0DrxRpBAQsJJki2TGEwHpm0JfYzcx',
+        'Authorization': 'My API KEY',
         'Content-Type': 'application/json',
         'User-Agent': 'insomnia/10.3.1'
       },
