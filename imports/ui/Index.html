@@ -1,0 +1,27 @@
+<body>
+{{> mainContainer}}
+</body>
+
+<template name="mainContainer">
+    <div class="app">
+        <header>
+            <div class="app-bar">
+                <div class="app-header">
+                    {{#if isUserLogged}}
+                    <h2 class="mt-8 text-2xl/9 font-bold tracking-tight text-gray-900">My Precriptions</h2>
+                    {{/if}}
+                </div>
+            </div>
+        </header>
+
+        <div class="main">
+            {{#if isUserLogged}}
+                <div class="user">
+                    {{getUser.username}} 🚪
+                </div>
+            {{else}}
+                {{> login }}
+            {{/if}}
+        </div>
+    </div>
+</template>
